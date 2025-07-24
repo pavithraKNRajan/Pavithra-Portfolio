@@ -3,13 +3,16 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
+import { ProjectsPage } from "@/components/ProjectsPage";
+import { SkillsPage } from "@/components/SkillsPage";
+import { ContactPage } from "@/components/ContactPage";
 
 const sections = {
   hero: HeroSection,
   about: AboutSection,
-  projects: () => <div className="min-h-screen flex items-center justify-center"><h2 className="text-4xl gradient-text">Projects Coming Soon</h2></div>,
-  skills: () => <div className="min-h-screen flex items-center justify-center"><h2 className="text-4xl gradient-text">Skills Coming Soon</h2></div>,
-  contact: () => <div className="min-h-screen flex items-center justify-center"><h2 className="text-4xl gradient-text">Contact Coming Soon</h2></div>,
+  projects: ProjectsPage,
+  skills: SkillsPage,
+  contact: ContactPage,
 };
 
 export const Portfolio = () => {
