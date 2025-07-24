@@ -142,12 +142,14 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30 cursor-pointer"
+        onClick={() => onSectionChange("about")}
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-primary rounded-full flex justify-center"
+          className="w-6 h-10 border-2 border-primary rounded-full flex justify-center hover:border-secondary transition-colors"
+          whileHover={{ scale: 1.1 }}
         >
           <motion.div
             animate={{ y: [0, 16, 0], opacity: [0, 1, 0] }}
@@ -155,6 +157,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
             className="w-1 h-3 bg-primary rounded-full mt-2"
           />
         </motion.div>
+        <p className="text-xs text-muted-foreground mt-2 opacity-70">Explore More</p>
       </motion.div>
     </section>
   );
