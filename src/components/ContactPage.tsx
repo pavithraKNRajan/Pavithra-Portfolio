@@ -22,19 +22,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "john.doe@example.com",
-    href: "mailto:john.doe@example.com"
+    value: "im.npavithra@gmail.com",
+    href: "mailto:im.npavithra@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567"
+    value: "+91 8124049656",
+    href: "tel:+918124049656"
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Dindigul, Tamil Nadu",
     href: "#"
   },
 ];
@@ -43,31 +43,19 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/pavithraKNRajan",
     color: "hover:text-white"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/pavithra-n-b37975346",
     color: "hover:text-blue-400"
-  },
-  {
-    icon: Twitter,
-    label: "Twitter",
-    href: "https://twitter.com",
-    color: "hover:text-blue-400"
-  },
-  {
-    icon: Youtube,
-    label: "YouTube",
-    href: "https://youtube.com",
-    color: "hover:text-red-400"
   },
   {
     icon: Instagram,
     label: "Instagram",
-    href: "https://instagram.com",
+    href: "https://www.instagram.com/_pavithra_nagarajan/",
     color: "hover:text-pink-400"
   },
 ];

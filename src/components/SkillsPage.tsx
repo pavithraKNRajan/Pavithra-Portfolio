@@ -18,12 +18,25 @@ const skillCategories = [
     title: "Frontend Development",
     icon: Code2,
     skills: [
-      { name: "React", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Next.js", level: 85 },
-      { name: "Vue.js", level: 80 },
-      { name: "HTML/CSS", level: 95 },
-      { name: "Tailwind CSS", level: 90 },
+      
+      
+      { name: "HTML", level: 95 },
+      { name: "JavaScript", level: 85},
+      {name: "CSS", level: 95},
+      
+       { name: "TypeScript", level: 70 },   
+      { name: "Tailwind CSS", level: 80 },
+      { name: "React", level: 70 },
+    ]
+  },
+   {
+    title: "Database & Cloud",
+    icon: Database,
+    skills: [
+      { name: "MySQL", level: 95 },
+      { name: "AWS", level: 80 },
+      { name: "Docker", level: 82 },
+      { name: "Firebase", level: 85 },
     ]
   },
   {
@@ -31,35 +44,21 @@ const skillCategories = [
     icon: Server,
     skills: [
       { name: "Node.js", level: 90 },
-      { name: "Python", level: 85 },
-      { name: "Express.js", level: 88 },
-      { name: "FastAPI", level: 82 },
-      { name: "GraphQL", level: 78 },
-      { name: "REST APIs", level: 92 },
+        { name: "Java", level: 85 },
+      { name: "REST APIs", level: 72 },
     ]
   },
-  {
-    title: "Database & Cloud",
-    icon: Database,
-    skills: [
-      { name: "MongoDB", level: 88 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "AWS", level: 80 },
-      { name: "Docker", level: 82 },
-      { name: "Redis", level: 75 },
-      { name: "Firebase", level: 85 },
-    ]
-  },
+ 
   {
     title: "Tools & Others",
     icon: Zap,
     skills: [
       { name: "Git", level: 95 },
       { name: "Figma", level: 85 },
-      { name: "Jest", level: 80 },
-      { name: "Webpack", level: 78 },
+     
+     
       { name: "Three.js", level: 75 },
-      { name: "Socket.io", level: 82 },
+      
     ]
   },
 ];

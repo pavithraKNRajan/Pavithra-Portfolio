@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Code2, Zap, Target, Heart } from "lucide-react";
 
 const achievements = [
-  { icon: Code2, title: "50+ Projects", description: "Successfully delivered" },
-  { icon: Zap, title: "5+ Years", description: "Professional experience" },
-  { icon: Target, title: "100%", description: "Client satisfaction" },
-  { icon: Heart, title: "Passionate", description: "About clean code" },
+{ icon: Code2, title: "3 Projects", description: "Built using Web VR, React & Tailwind" },
+{ icon: Zap, title: "Eager Learner", description: "Always exploring new technologies" },
+{ icon: Target, title: "Strong Foundations", description: "Java, DSA, HTML, CSS, JS" },
+{ icon: Heart, title: "Passionate", description: "About design & clean code" }
 ];
 
 interface AboutSectionProps {
@@ -69,19 +69,18 @@ export const AboutSection = ({ onSectionChange }: AboutSectionProps) => {
 
             <motion.div variants={itemVariants}>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm a passionate Full Stack Developer with over 5 years of experience 
-                creating digital experiences that blend creativity with functionality. 
-                My journey in tech started with curiosity and has evolved into a 
-                deep love for crafting elegant solutions to complex problems.
+               I am a motivated and detail-oriented aspiring Software Developer with academic and personal project experience in Java, HTML, CSS, SQL, and React.
+               My portfolio reflects my ability to build real-world applications such as a Virtual Campus Tour using Web VR, a responsive Tour & Travel Management website, and my personal portfolio.
+               I’m passionate about writing clean code, designing intuitive user interfaces, and continuously learning — currently focusing on mastering backend development and DSA to become industry-ready.
+
               </p>
             </motion.div>
 
             <motion.div variants={itemVariants}>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open source projects, or sharing knowledge through 
-                blog posts and community talks. I believe in continuous learning 
-                and staying at the forefront of technological innovation.
+               When I’m not coding, I love learning new technologies, working on personal projects, and improving my skills through online courses and challenges.  
+I'm passionate about becoming a better developer every day.
+
               </p>
             </motion.div>
 
