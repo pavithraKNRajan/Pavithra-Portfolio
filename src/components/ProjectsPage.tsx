@@ -4,21 +4,12 @@ import { ExternalLink, Github, Eye } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
-    title: "Tours & Travel Website – Frontend Interface",
-    description: "A responsive travel website UI built with React, showcasing tour packages, destinations, and modern navigation — developed purely for frontend presentation.",
-    image: "/Images/Screenshot 2.png",
-    tech: ["React", "React Router", "HTML", "CSS", "JavaScript"],
-    liveUrl: "https://tour-management-frontend-kvpx456p8-pavithraknrajans-projects.vercel.app",
-    githubUrl: "https://github.com/pavithraKNRajan/Tours-Travel-frontend",
-  },
-  {
     
 
     id: 2,
     title: "Virtual Campus Tour Using Web VR",
     description: "A virtual reality project that lets users explore a college campus online using 360° images, arrows to move around, and a chatbot for help.",
-    image: "/Images/Screenshot 3.png",
+    image: "/images/screenshot 3.png",
     tech: ["HTML", "CSS", "JavaScript", "A-Frame", "WebVR", "Node.js", "Express.js"],
     liveUrl: "https://virtual-campus-tour.onrender.com",
     githubUrl: "https://github.com/pavithraKNRajan/Virtual-campus-tour",
@@ -28,9 +19,9 @@ const projects = [
     id: 3,
     title: "Portfolio Website",
     description: "Responsive portfolio website with 3D animations, particle effects, and smooth transitions built with React and Three.js.",
-    image: "/Images/Screenshot.png",
+    image: "/images/screenshot.png",
     tech: ["React", "Three.js", "Framer Motion", "Tailwind"],
-    liveUrl: "https://cinematic-code-scape.lovable.app",
+    liveUrl: "https://pavithra-portfolio-iaqua88t1-pavithraknrajans-projects.vercel.app",
     githubUrl: "https://github.com/pavithraKNRajan/cinematic-code-scape",
   },
 ];
