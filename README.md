@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Lovable project
 
 ## Project info
@@ -71,3 +72,7 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+=======
+# Pavithra-Portfolio
+A modern, responsive personal portfolio website built with React, Tailwind CSS, and Framer Motion to showcase my projects, skills, and resume. Designed with elegant UI/UX, animations, and mobile-first responsiveness. Deployed on Vercel.
+>>>>>>> 54ae69c5601ca23b3896d38372d9e84c4ec6ed2f
