@@ -3,6 +3,16 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Eye } from "lucide-react";
 
 const projects = [
+{
+  id: 1,
+  title: "Tours & Travel Website – Frontend Interface",
+  description: "A responsive travel website UI built with React, showcasing tour packages, destinations, and modern navigation — developed purely for frontend presentation.",
+  image: "/images/screenshot 2.png",
+  tech: ["React", "React Router", "HTML", "CSS", "JavaScript"],
+  liveUrl: "https://tour-management-frontend-kvpx456p8-pavithraknrajans-projects.vercel.app",
+  githubUrl: "https://github.com/pavithraKNRajan/Tours-Travel-frontend",
+},
+
   {
     
 
