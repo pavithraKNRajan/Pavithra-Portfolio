@@ -32,7 +32,7 @@ const projects = [
     image: "/images/screenshot.png",
     tech: ["React", "Three.js", "Framer Motion", "Tailwind"],
     liveUrl: "https://pavithra-portfolio-iaqua88t1-pavithraknrajans-projects.vercel.app",
-    githubUrl: "https://github.com/pavithraKNRajan/cinematic-code-scape",
+    githubUrl: "https://github.com/pavithraKNRajan/Pavithra-Portfolio",
   },
 ];
 
