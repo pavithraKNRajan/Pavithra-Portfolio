@@ -31,7 +31,7 @@ const projects = [
     description: "Responsive portfolio website with 3D animations, particle effects, and smooth transitions built with React and Three.js.",
     image: "/Images/Screenshot.png",
     tech: ["React", "Three.js", "Framer Motion", "Tailwind"],
-    liveUrl: "https://pavithra-portfolio-iaqua88t1-pavithraknrajans-projects.vercel.app",
+    liveUrl: "https://pavithraportfolio.vercel.app",
     githubUrl: "https://github.com/pavithraKNRajan/Pavithra-Portfolio",
   },
 ];
