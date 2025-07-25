@@ -200,30 +200,7 @@ export const SkillsPage = ({ onSectionChange }: SkillsPageProps) => {
           variants={itemVariants}
           className="text-center mt-12"
         >
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-            {[
-              { icon: Globe, label: "Web Apps", count: "50+" },
-              { icon: Smartphone, label: "Mobile Apps", count: "15+" },
-              { icon: Shield, label: "Secure APIs", count: "30+" },
-              { icon: Brain, label: "AI Projects", count: "8+" },
-            ].map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ 
-                  delay: 1.5 + index * 0.1, 
-                  type: "spring" as const, 
-                  stiffness: 200 
-                }}
-                className="text-center p-4"
-              >
-                <stat.icon className="h-8 w-8 mx-auto mb-2 text-primary" />
-                <div className="text-2xl font-bold text-primary">{stat.count}</div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
+          
 
           <Button
             variant="neon"
