@@ -17,16 +17,13 @@ const skillCategories = [
   {
     title: "Frontend Development",
     icon: Code2,
-    skills: [
-      
-      
+    skills: [      
       { name: "HTML", level: 95 },
       { name: "JavaScript", level: 85},
       {name: "CSS", level: 95},
-      
-       { name: "TypeScript", level: 70 },   
+        
       { name: "Tailwind CSS", level: 80 },
-      { name: "React", level: 70 },
+      { name: "React", level: 60 },
     ]
   },
    {
@@ -36,7 +33,7 @@ const skillCategories = [
       { name: "MySQL", level: 95 },
       { name: "AWS", level: 80 },
       { name: "Docker", level: 82 },
-      { name: "Firebase", level: 85 },
+    
     ]
   },
   {
@@ -48,7 +45,6 @@ const skillCategories = [
       { name: "REST APIs", level: 72 },
     ]
   },
- 
   {
     title: "Tools & Others",
     icon: Zap,
@@ -120,7 +116,6 @@ export const SkillsPage = ({ onSectionChange }: SkillsPageProps) => {
             levels across various technologies and tools.
           </p>
         </motion.div>
-
         <motion.div 
           variants={containerVariants}
           className="grid md:grid-cols-2 gap-8"
@@ -195,13 +190,10 @@ export const SkillsPage = ({ onSectionChange }: SkillsPageProps) => {
             </motion.div>
           ))}
         </motion.div>
-
         <motion.div
           variants={itemVariants}
           className="text-center mt-12"
         >
-          
-
           <Button
             variant="neon"
             size="lg"

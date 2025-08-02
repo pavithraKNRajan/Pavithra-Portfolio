@@ -60,7 +60,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
 
         <motion.div variants={itemVariants}>
           <h2 className="text-2xl md:text-4xl font-semibold mb-4 text-secondary">
-            Fresher Software Developer | Java Backend & Web Frontend
+            Software Developer | Java Backend & Web Frontend
           </h2>
         </motion.div>
 
