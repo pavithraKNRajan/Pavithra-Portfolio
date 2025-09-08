@@ -128,7 +128,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
 
   <motion.div whileHover={{ scale: 1.2, rotate: -10 }} whileTap={{ scale: 0.9 }}>
     <a
-      href="https://www.linkedin.com/in/pavithraKNRajan"
+      href="https://www.linkedin.com/in/pavithra-n-b37975346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       target="_blank"
       rel="noopener noreferrer"
     >
