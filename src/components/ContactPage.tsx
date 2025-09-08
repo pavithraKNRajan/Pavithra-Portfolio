@@ -236,22 +236,16 @@ export const ContactPage = ({ onSectionChange }: ContactPageProps) => {
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
               <div className="space-y-4">
                 {contactInfo.map((item) => (
-                  <motion.a
-                    key={item.label}
-                    href={item.href}
-                    whileHover={{ scale: 1.02, x: 5 }}
-                    className="flex items-center p-3 rounded-lg hover:bg-primary/10 transition-colors group"
-                  >
-                    <item.icon className="h-5 w-5 mr-4 text-primary group-hover:text-secondary transition-colors" />
-                    <div>
-                      <div className="font-medium group-hover:text-primary transition-colors">
-                        {item.label}
-                      </div>
-                      <div className="text-sm text-muted-foreground">
-                        {item.value}
-                      </div>
-                    </div>
-                  </motion.a>
+               <motion.a key={item.label} 
+               href={item.href} 
+               whileHover={{ scale: 1.02, x: 5 }} 
+               className="flex items-center p-3 rounded-lg hover:bg-primary/10 transition-colors group" > 
+              <item.icon className="h-5 w-5 mr-4 text-primary group-hover:text-secondary transition-colors" /> 
+              <div> <div className="font-medium group-hover:text-primary transition-colors"> {item.label} 
+                </div> <div className="text-sm text-muted-foreground"> {item.value}
+                </div> </div> </motion.a>
+
+
                 ))}
               </div>
             </div>
@@ -261,18 +255,23 @@ export const ContactPage = ({ onSectionChange }: ContactPageProps) => {
               <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
               <div className="grid grid-cols-3 gap-4">
                 {socialLinks.map((social) => (
-                  <motion.a
-                    key={social.label}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.1, rotateZ: 5 }}
-                    whileTap={{ scale: 0.95 }}
-                    className={`flex flex-col items-center p-4 rounded-lg hover:bg-primary/10 transition-colors group ${social.color}`}
-                  >
-                    <social.icon className="h-8 w-8 mb-2 transition-colors" />
-                    <span className="text-sm font-medium">{social.label}</span>
-                  </motion.a>
+  <motion.div
+    key={social.label}
+    whileHover={{ scale: 1.1, rotateZ: 5 }}
+    whileTap={{ scale: 0.95 }}
+    className={`flex flex-col items-center p-4 rounded-lg hover:bg-primary/10 transition-colors group ${social.color}`}
+  >
+    <a 
+      href={social.href} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="flex flex-col items-center"
+    >
+      <social.icon className="h-8 w-8 mb-2 transition-colors" />
+      <span className="text-sm font-medium">{social.label}</span>
+    </a>
+  </motion.div>
+
                 ))}
               </div>
             </div>
