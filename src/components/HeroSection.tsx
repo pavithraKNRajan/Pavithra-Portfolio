@@ -110,37 +110,43 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
     </Button>
         </motion.div>
 
-        <motion.div 
-          variants={itemVariants}
-          className="flex justify-center gap-6"
-        >
-          <motion.div
-            whileHover={{ scale: 1.2, rotate: 10 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <Button variant="hero" size="icon" className="neon-glow">
-              <Github className="h-5 w-5" />
-            </Button>
-          </motion.div>
-          
-          <motion.div
-            whileHover={{ scale: 1.2, rotate: -10 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <Button variant="hero" size="icon" className="neon-glow">
-              <Linkedin className="h-5 w-5" />
-            </Button>
-          </motion.div>
-          
-          <motion.div
-            whileHover={{ scale: 1.2, rotate: 10 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <Button variant="hero" size="icon" className="neon-glow">
-              <Mail className="h-5 w-5" />
-            </Button>
-          </motion.div>
-        </motion.div>
+      <motion.div 
+  variants={itemVariants}
+  className="flex justify-center gap-6"
+>
+  <motion.div whileHover={{ scale: 1.2, rotate: 10 }} whileTap={{ scale: 0.9 }}>
+    <a
+      href="https://github.com/pavithraKNRajan"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button variant="hero" size="icon" className="neon-glow">
+        <Github className="h-5 w-5" />
+      </Button>
+    </a>
+  </motion.div>
+
+  <motion.div whileHover={{ scale: 1.2, rotate: -10 }} whileTap={{ scale: 0.9 }}>
+    <a
+      href="https://www.linkedin.com/in/pavithraKNRajan"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button variant="hero" size="icon" className="neon-glow">
+        <Linkedin className="h-5 w-5" />
+      </Button>
+    </a>
+  </motion.div>
+
+  <motion.div whileHover={{ scale: 1.2, rotate: 10 }} whileTap={{ scale: 0.9 }}>
+    <a href="mailto:pavithra@example.com">
+      <Button variant="hero" size="icon" className="neon-glow">
+        <Mail className="h-5 w-5" />
+      </Button>
+    </a>
+  </motion.div>
+</motion.div>
+
       </motion.div>
 
       {/* Scroll indicator */}

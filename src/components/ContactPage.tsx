@@ -60,6 +60,7 @@ const socialLinks = [
   },
 ];
 
+
 interface ContactPageProps {
   onSectionChange: (section: string) => void;
 }
@@ -255,24 +256,25 @@ export const ContactPage = ({ onSectionChange }: ContactPageProps) => {
               <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
               <div className="grid grid-cols-3 gap-4">
                 {socialLinks.map((social) => (
+  
   <motion.div
     key={social.label}
-    whileHover={{ scale: 1.1, rotateZ: 5 }}
+    whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.95 }}
-    className={`flex flex-col items-center p-4 rounded-lg hover:bg-primary/10 transition-colors group ${social.color}`}
+    className="flex flex-col items-center p-2 rounded-lg hover:bg-primary/10 transition-colors group"
   >
-    <a 
-      href={social.href} 
-      target="_blank" 
-      rel="noopener noreferrer" 
+    <a
+      href={social.href}
+      target="_blank"
+      rel="noopener noreferrer"
       className="flex flex-col items-center"
     >
-      <social.icon className="h-8 w-8 mb-2 transition-colors" />
-      <span className="text-sm font-medium">{social.label}</span>
+      <social.icon className="h-6 w-6 mb-1 transition-colors" />
+      <span className="text-sm">{social.label}</span>
     </a>
   </motion.div>
+))}
 
-                ))}
               </div>
             </div>
 
