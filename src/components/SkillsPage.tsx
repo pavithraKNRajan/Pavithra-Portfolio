@@ -15,6 +15,16 @@ import {
 
 const skillCategories = [
   {
+    title: "Tools",
+    icon: Server,
+    skills: [
+      { name: "Figma", level: 90 },
+        { name: "Adobe XD", level: 85 },
+      { name: "Git & Github", level: 72 },
+    ]
+  
+  },
+  {
     title: "Frontend Development",
     icon: Code2,
     skills: [      
@@ -22,41 +32,22 @@ const skillCategories = [
       { name: "JavaScript", level: 85},
       {name: "CSS", level: 95},
         
-      { name: "Tailwind CSS", level: 80 },
+     // { name: "Tailwind CSS", level: 80 },
       { name: "React", level: 60 },
     ]
   },
    {
-    title: "Database & Cloud",
+    title: "Other Tools",
     icon: Database,
     skills: [
       { name: "MySQL", level: 95 },
       { name: "AWS", level: 80 },
       { name: "Docker", level: 82 },
-    
+       { name: "Java", level: 70 },
+        { name: "Node.js", level: 77   }, 
     ]
   },
-  {
-    title: "Backend Development",
-    icon: Server,
-    skills: [
-      { name: "Node.js", level: 90 },
-        { name: "Java", level: 85 },
-      { name: "REST APIs", level: 72 },
-    ]
-  },
-  {
-    title: "Tools & Others",
-    icon: Zap,
-    skills: [
-      { name: "Git", level: 95 },
-      { name: "Figma", level: 85 },
-     
-     
-      { name: "Three.js", level: 75 },
-      
-    ]
-  },
+  
 ];
 
 interface SkillsPageProps {

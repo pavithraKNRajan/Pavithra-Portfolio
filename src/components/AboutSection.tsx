@@ -69,9 +69,8 @@ export const AboutSection = ({ onSectionChange }: AboutSectionProps) => {
 
             <motion.div variants={itemVariants}>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-               I am a motivated and detail-oriented aspiring Software Developer with academic and personal project experience in Java, HTML, CSS, SQL, and React.
-               My portfolio reflects my ability to build real-world applications such as a Virtual Campus Tour using Web VR, a responsive Tour & Travel Management website, and my personal portfolio.
-               I’m passionate about writing clean code, designing intuitive user interfaces, and continuously learning — currently focusing on mastering backend development and DSA to become industry-ready.
+               Aspiring UI/UX Designer & Frontend Developer with a strong foundation in user-centered design, responsive interfaces, and web technologies. Skilled in creating intuitive digital experiences through wireframing, prototyping, and frontend development. 
+               Recognized in hackathons for innovative solutions and passionate about solving real-world problems with design.
 
               </p>
             </motion.div>

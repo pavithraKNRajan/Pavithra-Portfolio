@@ -8,7 +8,7 @@ const projects = [
   title: "Tours & Travel Website – Frontend Interface",
   description: "A responsive travel website UI built with React, showcasing tour packages, destinations, and modern navigation — developed purely for frontend presentation.",
   image: "/Images/Screenshot 2.png",
-  tech: ["React", "React Router", "HTML", "CSS", "JavaScript"],
+  tech: ["React", "HTML", "CSS", "JavaScript"],
   liveUrl: "https://tour-management-frontend-kvpx456p8-pavithraknrajans-projects.vercel.app",
   githubUrl: "https://github.com/pavithraKNRajan/Tours-Travel-frontend",
 },
@@ -20,7 +20,7 @@ const projects = [
     title: "Virtual Campus Tour Using Web VR",
     description: "A virtual reality project that lets users explore a college campus online using 360° images, arrows to move around, and a chatbot for help.",
     image: "/Images/Screenshot 3.png",
-    tech: ["HTML", "CSS", "JavaScript", "A-Frame", "WebVR", "Node.js", "Express.js"],
+    tech: ["HTML", "CSS", "JavaScript", "A-Frame", "WebVR", "Node.js"],
     liveUrl: "https://virtual-campus-tour.onrender.com",
     githubUrl: "https://github.com/pavithraKNRajan/Virtual-campus-tour",
   },
@@ -79,7 +79,7 @@ export const ProjectsPage = ({ onSectionChange }: ProjectsPageProps) => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Here are some of my recent projects showcasing my skills in 
-            full-stack development, UI/UX design, and modern technologies.
+            front- end development, UI/UX design, and modern technologies.
           </p>
         </motion.div>
 

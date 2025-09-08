@@ -60,7 +60,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
 
         <motion.div variants={itemVariants}>
           <h2 className="text-2xl md:text-4xl font-semibold mb-4 text-secondary">
-            Software Developer | Java Backend & Web Frontend
+            UI/UX Designer | User- Centric Design |  Web Frontend
           </h2>
         </motion.div>
 
@@ -99,7 +99,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
       className="group"
     >
       <a
-        href="/Pavithra_Resume.pdf"
+        href="/PAVITHR_N_UX_RESUME.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
