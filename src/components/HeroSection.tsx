@@ -60,7 +60,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
 
         <motion.div variants={itemVariants}>
           <h2 className="text-2xl md:text-4xl font-semibold mb-4 text-secondary">
-            UI/UX Designer | User- Centric Design |  Web Frontend
+            Software Engineer (Fresher) | Java | Web Developer
           </h2>
         </motion.div>
 
@@ -99,7 +99,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
       className="group"
     >
       <a
-        href="/PAVITHR_N_UX_RESUME.pdf"
+        href="\PAVITHRA_NAGARAJAN.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
@@ -139,7 +139,7 @@ export const HeroSection = ({ onSectionChange }: HeroSectionProps) => {
   </motion.div>
 
   <motion.div whileHover={{ scale: 1.2, rotate: 10 }} whileTap={{ scale: 0.9 }}>
-    <a href="mailto:pavithra@example.com">
+    <a href="mailto:im.npavithra@gmail.com">
       <Button variant="hero" size="icon" className="neon-glow">
         <Mail className="h-5 w-5" />
       </Button>

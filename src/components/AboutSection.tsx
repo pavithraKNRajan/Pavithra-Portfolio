@@ -50,6 +50,7 @@ export const AboutSection = ({ onSectionChange }: AboutSectionProps) => {
     },
   };
 
+
   return (
     <section className="min-h-screen flex items-center justify-center py-20 px-6">
       <motion.div
@@ -69,8 +70,8 @@ export const AboutSection = ({ onSectionChange }: AboutSectionProps) => {
 
             <motion.div variants={itemVariants}>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-               Aspiring UI/UX Designer & Frontend Developer with a strong foundation in user-centered design, responsive interfaces, and web technologies. Skilled in creating intuitive digital experiences through wireframing, prototyping, and frontend development. 
-               Recognized in hackathons for innovative solutions and passionate about solving real-world problems with design.
+               Motivated and detail-oriented Computer Science graduate with strong skills in Java, SQL, and web technologies. Seeking an opportunity to apply my problem-solving abilities,
+                contribute to real-world projects, and continuously grow my technical expertise while adding value to the organization.
 
               </p>
             </motion.div>

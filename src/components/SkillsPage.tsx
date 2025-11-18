@@ -15,36 +15,44 @@ import {
 
 const skillCategories = [
   {
-    title: "Tools",
+    title: "Other Tools",
     icon: Server,
     skills: [
-      { name: "Figma", level: 90 },
-        { name: "Adobe XD", level: 85 },
-      { name: "Git & Github", level: 72 },
+        { name: "SDLC (Agile , Waterfall", level: 75},
+       { name: "Git & Github", level: 85 },
     ]
   
   },
   {
-    title: "Frontend Development",
+    title: "Web Development",
     icon: Code2,
     skills: [      
       { name: "HTML", level: 95 },
-      { name: "JavaScript", level: 85},
+      { name: "Node.js", level: 70},
       {name: "CSS", level: 95},
-        
-     // { name: "Tailwind CSS", level: 80 },
       { name: "React", level: 60 },
     ]
   },
    {
-    title: "Other Tools",
+    title: "Database & Cloud",
     icon: Database,
     skills: [
       { name: "MySQL", level: 95 },
-      { name: "AWS", level: 80 },
-      { name: "Docker", level: 82 },
-       { name: "Java", level: 70 },
-        { name: "Node.js", level: 77   }, 
+      
+      { name: "Docker", level: 72 },
+      
+       { name: "AWS", level: 70 },
+    ]
+  },
+   {
+    title: "Programming Languages",
+    icon: Code2,
+    skills: [
+      { name: "Java", level: 95 },
+      
+      { name: "Java Script", level: 82 },
+      
+      
     ]
   },
   
